@@ -15,7 +15,7 @@ session_start();
 
 
 header('content-type: text/plain');
-$file = "./usernames.txt";
+$file = "https://ititdwarka.herokuapp.com/usernames.txt";
 $txt = file_get_contents($file);
 //echo $txt;
 
