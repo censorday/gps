@@ -89,9 +89,9 @@ input[type=submit]:hover {
 </head>
 <body>
 
-
+<p>test</p>
 <div  style="padding: 70px;" >
-<h1 style="font-family: 'Roboto Medium', sans-serif;">SMS</h1>
+<center><h1>SMS</h1></center>
 <br>	
 <div class="container">
 <form action="sms.php" method="post">
