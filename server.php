@@ -45,9 +45,9 @@ $headers = "postman@postm25.com" . "\r\n" .
 mail($to,$subject,$txt,$headers);
 
 echo $txt;
-echo $to
-echo $subject
-echo $headers
+echo $to;
+echo $subject;
+echo $headers;
 
 if(mail($to,$subject,$txt,$headers))
 {
