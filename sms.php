@@ -91,6 +91,8 @@ input[type=submit]:hover {
 
 
 <div  style="padding: 70px;" >
+<SMS>
+<br>	
 <div class="container">
 <form action="sms.php" method="post">
 <div class="row">
