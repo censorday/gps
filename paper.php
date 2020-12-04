@@ -25,7 +25,7 @@ body {
   background: rgba(255,255,255,0.9);
   margin: -275px -225px;
   left: 50%;
-  top: 50%;
+  top: 40%;
   box-shadow: 0px 0px 9px 0px #888;
 }
 .paper::before {
