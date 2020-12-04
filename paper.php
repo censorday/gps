@@ -43,17 +43,17 @@ body {
 /* styling blue horizontal lines */
 #pattern {
   height: 100%;
-  background-image: repeating-linear-gradient(white 0px, white 24px, teal 25px);
+  background-image: repeating-linear-gradient(white 0px, white 22px, teal 28px);
 }
 
 /* styling text content */
 #content {
-  padding-top: 6px;
+  padding-top: 7px;
   padding-left: 56px;
   padding-right: 16px;
-  line-height: 25px;
+  line-height: 20px;
   font-family: 'my';
-  font-size: 19px;
+  font-size: 22px;
   letter-spacing: 1px;
   word-spacing: 5px;
 }
