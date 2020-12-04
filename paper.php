@@ -57,7 +57,7 @@ body {
 
   </style>
 <body>
-<br>
+
 <div class="paper">
   <div class="lines">
     <div class="text" contenteditable spellcheck="false">
