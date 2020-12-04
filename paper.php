@@ -43,7 +43,7 @@ body {
 /* styling blue horizontal lines */
 #pattern {
   height: 100%;
-  background-image: repeating-linear-gradient(white 0px, white 22px, teal 28px);
+  background-image: repeating-linear-gradient(white 0px, white 24px, teal 25px);
 }
 
   /* styling text content */
