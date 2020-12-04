@@ -46,18 +46,20 @@ body {
   background-image: repeating-linear-gradient(white 0px, white 22px, teal 28px);
 }
 
-/* styling text content */
+  /* styling text content */
 #content {
   padding-top: 6px;
   padding-left: 56px;
   padding-right: 16px;
   line-height: 25px;
   font-family: 'my';
-  font-size: 22px;
+  font-size: 19px;
   letter-spacing: 1px;
   word-spacing: 5px;
 }
-</style>
+  
+
+  </style>
 <body>
 
 <div id="paper">
