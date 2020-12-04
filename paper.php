@@ -48,7 +48,7 @@ body {
 
 /* styling text content */
 #content {
-  padding-top: 8px;
+  padding-top: 7px;
   padding-left: 56px;
   padding-right: 16px;
   line-height: 20px;
