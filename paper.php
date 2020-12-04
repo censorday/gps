@@ -16,13 +16,13 @@ div {
 body {
   margin: 0;
   padding: 0;
-  background: rgba(204,204,204,0.9);
+  background: rgba(255,255,255,1);
 }
 .paper {
   position: absolute;
   height: 700px;
   width: 600px;
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,1);
   margin: -275px -225px;
   left: 50%;
   top: 40%;
