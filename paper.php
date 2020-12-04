@@ -13,74 +13,78 @@ div {
 }
   
   
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 body {
-  background-color: rgba(0,0,0,0.1);
-
+  margin: 0;
+  padding: 0;
+  background: lightgoldenrodyellow;
 }
-	
-
-/* styling paper */
-#paper {
-  width: 600px;
-  height: 700px;
-  position: relative;
-  margin: 20px auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: white;
+.paper {
+  position: absolute;
+  height: 550px;
+  width: 450px;
+  background: rgba(255,255,255,0.9);
+  margin: -275px -225px;
+  left: 50%;
+  top: 50%;
   box-shadow: 0px 0px 5px 0px #888;
 }
-
-/* styling red vertical line */
-#paper::before {
+.paper::before {
   content: '';
-  width: 1px;
-  height: 100%;
   position: absolute;
-  top: 0;
   left: 45px;
-    background-color: rgba(128,0,128,0.4);
-}
-
-
-/* styling blue horizontal lines */
-#pattern {
   height: 100%;
-  background-image: repeating-linear-gradient(white 0px, white 24px, teal 25px);
+  width: 2px;
+  background: rgba(255,0,0,0.4);
 }
-
-/* styling text content */
-#content {
-  padding-top: 10px;
-  padding-left: 56px;
-  padding-right: 16px;
+.lines {
+  margin-top: 40px;
+  height: calc(100% - 40px);
+  width: 100%;
+  background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px);
+}
+.text {
+  position: absolute;
+  top: 65px;
+  left: 55px;
+  bottom: 10px;
+  right: 10px;
   line-height: 25px;
   font-family: 'my';
-  font-size: 24px;
-  letter-spacing: 1px;
-  word-spacing: 5px;
+  overflow: hidden;
+  outline: none;
 }
-		
-  
+.holes {
+  position: absolute;
+  left: 10px;
+  height: 25px;
+  width: 25px;
+  background: lightgoldenrodyellow;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 2px 0px #888;
+}
+.hole-top {
+  top: 10%;
+}
+.hole-middle {
+  top: 50%;
+}
+.hole-bottom {
+  bottom: 10%;
+}
 
   </style>
 <body>
 
-<div id="paper">
-  <div id="pattern">
-    <div id="content">
-	<textarea style="color: black; background-color: transparent;">
-      Pollution is a term which even kids are aware of these days. It has become so common that almost everyone acknowledges 
-	    the fact that pollution is rising continuously. The term ‘pollution’ means the manifestation of any unsolicited 
-	    foreign substance in something. When we talk about pollution on earth, we refer to the contamination that is 
-	    happening of the natural resources by various pollutants. All this is mainly caused by human activities which
-	    harm the environment in ways more than one. Therefore, an urgent need has arisen to tackle this issue straightaway.
-	    That is to say, pollution is damaging our earth severely and we need to realize its effects and prevent this damage. 
-	    In this essay on pollution, we will see what are the effects of pollution and how to reduce it.
-	    </textarea>
-    </div>
+<div class="paper">
+  <div class="lines">
+    <div class="text" contenteditable spellcheck="false">
+      You can edit this text! <br /><br />
+      Cupcake ipsum dolor sit amet liquorice fruitcake. Candy canes jelly beans sweet roll cupcake lollipop. Powder carrot cake toffee brownie. Marshmallow sweet roll donut. Chocolate cake apple pie candy canes tiramisu dragée wafer. Croissant cookie lemon drops tiramisu jelly-o donut. Sweet gummi bears ice cream.</div>
   </div>
+  <div class="holes hole-top"></div>
+  <div class="holes hole-middle"></div>
+  <div class="holes hole-bottom"></div>
 </div>
-
 </body>
 </html>
