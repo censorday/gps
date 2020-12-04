@@ -26,7 +26,7 @@ body {
   margin: -275px -225px;
   left: 50%;
   top: 50%;
-  box-shadow: 0px 0px 6px 0px #888;
+  box-shadow: 0px 0px 9px 0px #888;
 }
 .paper::before {
   content: '';
@@ -44,7 +44,7 @@ body {
 }
 .text {
   position: absolute;
-  top: 65px;
+  top: 55px;
   left: 55px;
   bottom: 1px;
   right: 10px;
@@ -57,12 +57,12 @@ body {
 
   </style>
 <body>
-
+<br>
 <div class="paper">
   <div class="lines">
     <div class="text" contenteditable spellcheck="false">
       This can be the title <br />
-      Hello I am ++++ +++++++++ and this is totlaly developed by me</div>
+      Hello I am Vashishth and this is totlaly developed by me</div>
   </div>
   
 </div>
