@@ -21,11 +21,11 @@ body {
 /* styling red vertical line */
 #paper::before {
   content: '';
-  width: 2px;
+  width: 1px;
   height: 100%;
   position: absolute;
   top: 0;
-  left: 40px;
+  left: 45px;
     background-color: rgba(128,0,128,0.4);
 }
 
