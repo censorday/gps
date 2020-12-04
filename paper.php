@@ -19,7 +19,7 @@ body {
   background: rgba(204,204,204,0.9);
 }
 .paper {
-  position: relative;
+  position: absolute;
   height: 700px;
   width: 600px;
   background: rgba(255,255,255,0.9);
