@@ -49,7 +49,7 @@ body {
 
 /* styling text content */
 #content {
-  padding-top: 6px;
+  padding-top: 12px;
   padding-left: 56px;
   padding-right: 16px;
   line-height: 25px;
