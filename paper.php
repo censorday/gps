@@ -19,9 +19,9 @@ body {
   background: rgba(204,204,204,0.9);
 }
 .paper {
-  position: absolute;
-  height: 550px;
-  width: 450px;
+  position: relative;
+  height: 700px;
+  width: 600px;
   background: rgba(255,255,255,0.9);
   margin: -275px -225px;
   left: 50%;
