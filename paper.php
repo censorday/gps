@@ -32,12 +32,12 @@ body {
 /* styling red vertical line */
 #paper::before {
   content: '';
-  width: 1px;
+  width: 2px;
   height: 100%;
   position: absolute;
   top: 0;
-  left: 45px;
-    background-color: rgba(128,0,128,0.4);
+  left: 40px;
+  background-color: rgba(255,0,0,0.6);
 }
 
 /* styling blue horizontal lines */
@@ -46,17 +46,18 @@ body {
   background-image: repeating-linear-gradient(white 0px, white 24px, teal 25px);
 }
 
-  /* styling text content */
+/* styling text content */
 #content {
   padding-top: 6px;
   padding-left: 56px;
   padding-right: 16px;
   line-height: 25px;
-  font-family: 'my';
+  font-family: 'Dancing Script', cursive;
   font-size: 19px;
   letter-spacing: 1px;
   word-spacing: 5px;
 }
+		
   
 
   </style>
