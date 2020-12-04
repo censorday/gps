@@ -48,10 +48,10 @@ body {
 
 /* styling text content */
 #content {
-  padding-top: 7px;
+  padding-top: 6px;
   padding-left: 56px;
   padding-right: 16px;
-  line-height: 20px;
+  line-height: 25px;
   font-family: 'my';
   font-size: 22px;
   letter-spacing: 1px;
