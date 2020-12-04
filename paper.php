@@ -32,13 +32,14 @@ body {
 /* styling red vertical line */
 #paper::before {
   content: '';
-  width: 2px;
+  width: 1px;
   height: 100%;
   position: absolute;
   top: 0;
-  left: 40px;
-  background-color: rgba(255,0,0,0.6);
+  left: 45px;
+    background-color: rgba(128,0,128,0.4);
 }
+
 
 /* styling blue horizontal lines */
 #pattern {
@@ -52,8 +53,8 @@ body {
   padding-left: 56px;
   padding-right: 16px;
   line-height: 25px;
-  font-family: 'Dancing Script', cursive;
-  font-size: 19px;
+  font-family: 'my';
+  font-size: 24px;
   letter-spacing: 1px;
   word-spacing: 5px;
 }
