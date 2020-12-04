@@ -46,7 +46,7 @@ body {
   position: absolute;
   top: 65px;
   left: 55px;
-  bottom: 10px;
+  bottom: 1px;
   right: 10px;
   line-height: 25px;
   font-family: 'my';
@@ -61,8 +61,8 @@ body {
 <div class="paper">
   <div class="lines">
     <div class="text" contenteditable spellcheck="false">
-      You can edit this text! <br /><br />
-      Cupcake ipsum dolor sit amet liquorice fruitcake. Candy canes jelly beans sweet roll cupcake lollipop. Powder carrot cake toffee brownie. Marshmallow sweet roll donut. Chocolate cake apple pie candy canes tiramisu dragée wafer. Croissant cookie lemon drops tiramisu jelly-o donut. Sweet gummi bears ice cream.</div>
+      This can be the title <br />
+      Hello I am ++++ +++++++++ and this is totlaly developed by me</div>
   </div>
   
 </div>
