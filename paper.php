@@ -2,6 +2,17 @@
 <title>Canva</title>
 <style>
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+  
+  @font-face {
+  font-family: my;
+  src: url(/avs.ttf);
+}
+
+div {
+  font-family: my;
+}
+  
+  
 body {
   background-color: rgba(0,0,0,0.1);
 }
@@ -41,7 +52,7 @@ body {
   padding-left: 56px;
   padding-right: 16px;
   line-height: 25px;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'my';
   font-size: 19px;
   letter-spacing: 1px;
   word-spacing: 5px;
