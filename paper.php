@@ -44,7 +44,7 @@ body {
 }
 .text {
   position: absolute;
-  top: 55px;
+  top: 47px;
   left: 55px;
   bottom: 1px;
   right: 10px;
