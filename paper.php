@@ -49,7 +49,7 @@ body {
 
 /* styling text content */
 #content {
-  padding-top: 13px;
+  padding-top: 10px;
   padding-left: 56px;
   padding-right: 16px;
   line-height: 25px;
@@ -67,7 +67,13 @@ body {
 <div id="paper">
   <div id="pattern">
     <div id="content">
-      Dear Diary ... Clifton Hill. 
+      Pollution is a term which even kids are aware of these days. It has become so common that almost everyone acknowledges 
+	    the fact that pollution is rising continuously. The term ‘pollution’ means the manifestation of any unsolicited 
+	    foreign substance in something. When we talk about pollution on earth, we refer to the contamination that is 
+	    happening of the natural resources by various pollutants. All this is mainly caused by human activities which
+	    harm the environment in ways more than one. Therefore, an urgent need has arisen to tackle this issue straightaway.
+	    That is to say, pollution is damaging our earth severely and we need to realize its effects and prevent this damage. 
+	    In this essay on pollution, we will see what are the effects of pollution and how to reduce it.
     </div>
   </div>
 </div>
