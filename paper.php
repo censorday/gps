@@ -26,7 +26,7 @@ body {
   position: absolute;
   top: 0;
   left: 40px;
-  background-color: rgba(255,0,0,0.6);
+    background-color: rgba(255,182,193,0.4);
 }
 
 /* styling blue horizontal lines */
