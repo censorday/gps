@@ -1,7 +1,7 @@
 <html>
 <title>Canva</title>
 <style>
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
   
   @font-face {
   font-family: my;
