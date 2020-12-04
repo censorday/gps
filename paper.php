@@ -15,35 +15,8 @@ div {
   
 body {
   background-color: rgba(0,0,0,0.1);
- overflow-x: hidden;
-}
-/* writing textarea */	
-.text-container {
-  background: #4492E0;
-  padding: 20px;
-  height: 100%;
-  position: relative;
-}
 
-textarea {
-  background: transparent;
-  color: transparent;
-  resize: none;
-  border: 0 none;
-  width: 100%;
-  font-size: 5em;
-  outline: none;
-  height: 100%;
-  position: absolute;
 }
-
-textarea:focus {
-  color: white;
-}
-
-	
-	
-	
 	
 
 /* styling paper */
@@ -96,7 +69,7 @@ textarea:focus {
 <div id="paper">
   <div id="pattern">
     <div id="content">
-	    <div class="text-container">
+	<textarea style="color: black; background-color: transparent;">
       Pollution is a term which even kids are aware of these days. It has become so common that almost everyone acknowledges 
 	    the fact that pollution is rising continuously. The term ‘pollution’ means the manifestation of any unsolicited 
 	    foreign substance in something. When we talk about pollution on earth, we refer to the contamination that is 
@@ -104,7 +77,7 @@ textarea:focus {
 	    harm the environment in ways more than one. Therefore, an urgent need has arisen to tackle this issue straightaway.
 	    That is to say, pollution is damaging our earth severely and we need to realize its effects and prevent this damage. 
 	    In this essay on pollution, we will see what are the effects of pollution and how to reduce it.
-	</div>	    
+	    </textarea>
     </div>
   </div>
 </div>
