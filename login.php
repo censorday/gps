@@ -1,11 +1,4 @@
-<html>
-<body>
-<h1>new login page</h1>
-
-</body>
-</html>
-
-/* <?php
+<?php
 session_start();
 			
 			$pass = $_POST["password"];
@@ -21,4 +14,4 @@ exit();
 			
 session_destroy();
 			
-?> */
+?>
